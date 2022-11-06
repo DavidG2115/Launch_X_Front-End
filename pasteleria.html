@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <title>Pasteleria Luna</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+
+</body>
+<header>
+    <div class="logo">
+        <img id="logo" src="./Dulce.png" alt="Logo Pasteleria" width="350" height="350" />
+        <h2>Pasteleria Luna, hasta donde imagines</h2>
+    </div>
+
+</header>
+
+<div class="menu2">
+    <h2>Menu Sabores</h2>
+</div>
+
+<section class="container">
+
+    <article>
+        <h3>Vainilla</h3>
+        <img src="https://www.wiltonenespanol.com/wp-content/uploads/2017/02/pastel-de-vainilla-768x404.jpg">
+        <p>$250</p>
+
+    </article>
+    <article>
+        <h3>Chocolate</h3>
+        <img
+            src="https://cdn2.cocinadelirante.com/sites/default/files/styles/gallerie/public/images/2016/07/pasteldechocolateconcoca.jpg">
+        <p>$ 250</p>
+
+    </article>
+
+    <article>
+        <h3>Fresa</h3>
+        <img src="https://cdn2.cocinadelirante.com/sites/default/files/images/2017/10/pasteldefresasconcremafacil.jpg">
+        <p>$ 250</p>
+    </article>
+
+    <article>
+        <h3>Zanahoria</h3>
+        <img src="./zanahoria.jpg">
+        <p>$ 300</p>
+    </article>
+</section>
+<hr>
+
+<div class="menu2">
+    <h2>Menu Adornos</h2>
+    <p>Puedes agregar uno o mas adornos</p>
+</div>
+
+
+<section class="container">
+
+    <article>
+        <h3>Decoracion con fruta</h3>
+        <img src="https://img-global.cpcdn.com/recipes/eb2b72dcfc45ee25/1200x630cq70/photo.jpg" >
+        <p>$ 80</p>
+
+    </article>
+
+    <article>
+        <h3>Figura</h3>
+        <img src="https://cdn.shopify.com/s/files/1/0434/0596/7524/products/proyectojz323_395x.jpg?v=1625222449" >
+        <p>$ 70</p>
+
+    </article>
+
+    <article>
+        <h3>Personalizado</h3>
+        <img src="https://manualidadeseli.com/wp-content/uploads/2021/07/%C2%A1No-Puedes-Dejar-De-Ver-Estas-Bellisimas-Decoraciones-De-Pasteles-De-Cumpleanos-3.jpg" >
+        <p>$ 100 a 400</p>
+
+    </article>
+    
+</section>
+
+
+<div class="menu2">
+    <h2>Pedidos</h2>
+    <p></p>
+</div>
+
+
+
+<section class="pedido">
+
+    <h3>Haz tu pedido aqui</h3>
+
+    <form action="formu">
+        <p>¿Como quieres recojer tu pedido?</p>
+        <select>
+            <option value="Sucursal">Sucursal</option>
+            <option value="Domicilio">Domicilio</option>
+        </select>
+        <p>¿Que sabor de pastel?</p>
+
+        <label>Puedes seleccionar uno o varios</label><br>
+        <input type="checkbox" id="sabor1" name="sabor1" value="Vainilla">
+        <label for="sabor1">Vainilla</label><br>
+        <input type="checkbox" id="sabor2" name="sabor2" value="Chocolate">
+        <label for="sabor2">Chocolate</label><br>
+        <input type="checkbox" id="sabor3" name="sabor3" value="Fresa">
+        <label for="sabor3">Fresa</label><br>
+        <input type="checkbox" id="sabor4" name="sabor4" value="Zanahoria">
+        <label for="sabor4">Zanahoria</label><br>
+
+        <p>¿Como quieres adornar tu pastel?</p>
+        <input type="checkbox" id="decor1" name="decor1" value="Frutas">
+        <label for="decor1">Frutas</label><br>
+        <input type="checkbox" id="decor2" name="decor2" value="Figura">
+        <label for="decor2">Figura</label><br>
+        <input type="checkbox" id="decor3" name="decor3" value="Especial">
+        <label for="decor1">Frutas</label><br><br>
+
+        <label for="Descripcion">Descripcion o comentarios</label><br>
+        <input type="text" id="Descripcion" name="Descripcion"
+            placeholder="Dime como te gustaria que hicieramos tu pastel"><br>
+
+
+        <p>Datos de contacto</p>
+        <label for="Nombre"></label><br>
+        <input type="text" class="user1" name="Nombre" placeholder="Ingresa tu Nombre"><br>
+        <label for="Apellido"></label><br>
+        <input type="text" class="user1" name="Apellido" placeholder="Ingresa tu Apellido"><br>
+        <label for="tel1">Telefono</label><br>
+        <input type="tel" class="user1" name="tel1" maxlength="10" placeholder="Ingresa tu numero">
+        <br><br>
+        <input class="botons" type="submit" value="Registrar">
+        <input class="botons" type="reset" id="boton1"><br>
+    </form>
+</section>
+<footer>
+    <hr>
+    <section>
+        <h2>Ubicacion</h2>
+        <h3>Sucursales</h3>
+        <table class="tabla1">
+            <tr>
+                <th><b>Centro</b></th>
+                <th><a href="https://goo.gl/maps/efBXP53Q1xSVuwvX7" target="_blank">Av Francisco I. Madero Ote 58,
+                        Centro histórico de Morelia</a></th>
+                <th>L-D 12pm - 21pm</th>
+            </tr>
+            <tr>
+                <th>Sur</th>
+                <th><a href="https://goo.gl/maps/sKpXAZq3cFtWTEEfA" target="_blank">Perif. Paseo de la República
+                        3077></a> </th>
+                <th>L-D 12pm - 21pm</th>
+            </tr>
+        </table>
+    </section>
+
+</footer>
+
+</html>

@@ -1,0 +1,133 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #eb9753;
+}
+
+header {
+    display: flex; 
+    background-color: #b6632d;
+    color: white;
+    padding: 3rem 2rem;
+    justify-content: center;
+    align-items: center;
+    text-size-adjust: 40px;
+    
+}
+
+img {
+    width: 300px;
+    height: 230px;
+    display: flex;
+    padding: 20px;
+
+}
+
+.logo {
+    display: flex;
+}
+
+
+
+.container {
+    width: 900px;
+    margin: 0;
+    display: flex;
+    padding: 1rem 1rem;
+
+}
+
+
+section article {
+    transition: box-shadow 0.3s ease;
+    background-color: pink;
+    justify-content: space-around;
+    margin: 1rem 1rem;
+    border-radius: 0.5rem;
+    cursor: pointer;
+}
+
+section article h3 {
+    text-align: center;
+    font-size: x-large;
+}
+
+section article p {
+    text-align: center;
+    font-size: larger;
+    font-family: 'Open Sans', 'Helvetica Neue';
+}
+section article:hover {
+    box-shadow: 0.5rem 0.5rem 0.4rem rgba(0, 0, 0, 0.45);
+}
+
+.menu2 {
+    margin: 15px;
+    background-color: rgb(112, 105, 221);
+    text-align: center;
+    padding: 5px 5px 5px;
+    border-radius: 80px;
+    
+}
+footer {
+    color: azure;
+    background-color: rgb(73, 73, 73);
+}
+
+.pedido h3 {
+    text-align: center;
+    font-size: x-large;
+}
+.pedido {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 400px;
+    background-color: #24303c;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Calibri', Trebuchet MS, sans-serif;
+    color: white;
+
+}
+
+.user1 {
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #1f53c5;
+    font-family: 'Calibri', sans-serif;
+}
+
+.pedido a {
+    color: white;
+    text-decoration: none;
+}
+.pedido .botons {
+    width: 100%;
+    background-color: #1f53c5;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    border: #1f53c5;
+}
+.pedido .botons:hover {
+    box-shadow: 0.5rem 0.5rem 0.4rem rgba(0, 0, 0, 0.45);
+}
+
+.tabla1 {
+    text-align: center;
+    border: #24303c;
+}
+th, td {
+    border: solid 1px #b6632d;
+    padding: 5px;
+
+}
